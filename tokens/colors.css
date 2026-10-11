@@ -1,0 +1,41 @@
+:root {
+  --jumco-ink-navy: #0a1648;
+  --jumco-text-soft: #4a5578;
+  --jumco-bg-soft: #f4f8fd;
+  --jumco-sky: #86d2fc;
+  --jumco-sky-300: #b5e4fd;
+  --jumco-sky-100: #e6f6fe;
+  --jumco-sky-500: #6cabe6;
+  --jumco-navy: #142e9f;
+  --jumco-navy-700: #0f2278;
+  --jumco-navy-900: #0a1648;
+  --jumco-navy-400: #3f5fc8;
+  --jumco-ink: #0b0f1f;
+  --jumco-white: #ffffff;
+  --jumco-gray-50: #f5f8fc;
+  --jumco-gray-200: #dde4ef;
+  --jumco-gray-500: #6b7691;
+  --jumco-success: #1f9d6b;
+  --jumco-warning: #e0a100;
+  --jumco-danger: #d6403f;
+  --gradient-ribbon: linear-gradient(
+    160deg,
+    #6eaee8 0%,
+    #4a78cc 60%,
+    #3053b4 100%
+  ); /* @kind color */
+  --text-1: var(--jumco-navy);
+  --text-body: var(--jumco-ink);
+  --text-muted: var(--jumco-gray-500);
+  --text-on-dark: var(--jumco-sky);
+  --surface-page: var(--jumco-white);
+  --surface-card: var(--jumco-white);
+  --surface-subtle: var(--jumco-gray-50);
+  --surface-brand: var(--jumco-navy);
+  --surface-dark: var(--jumco-ink);
+  --accent: var(--jumco-navy);
+  --accent-hover: var(--jumco-navy-700);
+  --accent-soft: var(--jumco-sky);
+  --border: var(--jumco-gray-200);
+  --focus-ring: var(--jumco-sky);
+}

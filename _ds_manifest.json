@@ -1,0 +1,490 @@
+{
+  "namespace": "JUMCODesignSystem_b3554b",
+  "components": [
+    { "name": "Badge", "sourcePath": "components/core/Badge.jsx" },
+    { "name": "Button", "sourcePath": "components/core/Button.jsx" },
+    { "name": "Card", "sourcePath": "components/core/Card.jsx" },
+    { "name": "Input", "sourcePath": "components/core/Input.jsx" }
+  ],
+  "startingPoints": [],
+  "cards": [
+    {
+      "path": "guidelines/colors-brand.html",
+      "group": "Color",
+      "viewport": "700x130",
+      "subtitle": "Celeste y azul marino",
+      "name": "Marca"
+    },
+    {
+      "path": "guidelines/colors-neutral.html",
+      "group": "Color",
+      "viewport": "700x130",
+      "subtitle": "Grises y estados",
+      "name": "Neutros y semánticos"
+    },
+    {
+      "path": "components/core/core.card.html",
+      "group": "Componentes",
+      "viewport": "700x330",
+      "subtitle": "Botón, Etiqueta, Campo, Tarjeta",
+      "name": "Básicos"
+    },
+    {
+      "path": "guidelines/spacing.html",
+      "group": "Espaciado",
+      "viewport": "700x150",
+      "subtitle": "Escala",
+      "name": "Espaciado y radios"
+    },
+    {
+      "path": "guidelines/logos.html",
+      "group": "Marca",
+      "viewport": "700x240",
+      "subtitle": "Versiones clara y oscura",
+      "name": "Logotipos"
+    },
+    {
+      "path": "guidelines/type.html",
+      "group": "Tipografía",
+      "viewport": "700x220",
+      "subtitle": "Títulos + cuerpo (sustituta)",
+      "name": "Nunito"
+    },
+    {
+      "path": "ui_kits/web/index-ambitos-numerados.html",
+      "group": "Web JUMCO",
+      "viewport": "1280x900",
+      "subtitle": "Variante: ámbitos de trabajo en lista numerada",
+      "name": "Web · Inicio (ámbitos numerados)"
+    },
+    {
+      "path": "ui_kits/web/index.html",
+      "group": "Web JUMCO",
+      "viewport": "1280x900",
+      "subtitle": "Portada corporativa de JUMCO",
+      "name": "Web · Inicio"
+    }
+  ],
+  "templates": [],
+  "hasThumbnailHtml": true,
+  "globalCssPaths": [
+    "tokens/colors.css",
+    "tokens/typography.css",
+    "tokens/spacing.css",
+    "styles.css"
+  ],
+  "tokens": [
+    {
+      "name": "--jumco-ink-navy",
+      "value": "#0a1648",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--jumco-text-soft",
+      "value": "#4a5578",
+      "kind": "font",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--jumco-bg-soft",
+      "value": "#f4f8fd",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--jumco-sky",
+      "value": "#86d2fc",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--jumco-sky-300",
+      "value": "#b5e4fd",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--jumco-sky-100",
+      "value": "#e6f6fe",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--jumco-sky-500",
+      "value": "#6cabe6",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--jumco-navy",
+      "value": "#142e9f",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--jumco-navy-700",
+      "value": "#0f2278",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--jumco-navy-900",
+      "value": "#0a1648",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--jumco-navy-400",
+      "value": "#3f5fc8",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--jumco-ink",
+      "value": "#0b0f1f",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--jumco-white",
+      "value": "#ffffff",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--jumco-gray-50",
+      "value": "#f5f8fc",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--jumco-gray-200",
+      "value": "#dde4ef",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--jumco-gray-500",
+      "value": "#6b7691",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--jumco-success",
+      "value": "#1f9d6b",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--jumco-warning",
+      "value": "#e0a100",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--jumco-danger",
+      "value": "#d6403f",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--gradient-ribbon",
+      "value": "linear-gradient(160deg,#6eaee8 0%,#4a78cc 60%,#3053b4 100%)",
+      "kind": "color",
+      "definedIn": "tokens/colors.css",
+      "annotation": "color"
+    },
+    {
+      "name": "--text-1",
+      "value": "var(--jumco-navy)",
+      "kind": "font",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--text-body",
+      "value": "var(--jumco-ink)",
+      "kind": "font",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--text-muted",
+      "value": "var(--jumco-gray-500)",
+      "kind": "font",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--text-on-dark",
+      "value": "var(--jumco-sky)",
+      "kind": "font",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--surface-page",
+      "value": "var(--jumco-white)",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--surface-card",
+      "value": "var(--jumco-white)",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--surface-subtle",
+      "value": "var(--jumco-gray-50)",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--surface-brand",
+      "value": "var(--jumco-navy)",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--surface-dark",
+      "value": "var(--jumco-ink)",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--accent",
+      "value": "var(--jumco-navy)",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--accent-hover",
+      "value": "var(--jumco-navy-700)",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--accent-soft",
+      "value": "var(--jumco-sky)",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--border",
+      "value": "var(--jumco-gray-200)",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--focus-ring",
+      "value": "var(--jumco-sky)",
+      "kind": "color",
+      "definedIn": "tokens/colors.css"
+    },
+    {
+      "name": "--font-display",
+      "value": "\"Bricolage Grotesque\",system-ui,sans-serif",
+      "kind": "font",
+      "definedIn": "tokens/typography.css"
+    },
+    {
+      "name": "--font-body",
+      "value": "\"Schibsted Grotesk\",system-ui,sans-serif",
+      "kind": "font",
+      "definedIn": "tokens/typography.css"
+    },
+    {
+      "name": "--font-mono",
+      "value": "ui-monospace,Menlo,monospace",
+      "kind": "font",
+      "definedIn": "tokens/typography.css"
+    },
+    {
+      "name": "--fs-xs",
+      "value": "12px",
+      "kind": "spacing",
+      "definedIn": "tokens/typography.css"
+    },
+    {
+      "name": "--fs-sm",
+      "value": "14px",
+      "kind": "spacing",
+      "definedIn": "tokens/typography.css"
+    },
+    {
+      "name": "--fs-md",
+      "value": "16px",
+      "kind": "spacing",
+      "definedIn": "tokens/typography.css"
+    },
+    {
+      "name": "--fs-lg",
+      "value": "20px",
+      "kind": "spacing",
+      "definedIn": "tokens/typography.css"
+    },
+    {
+      "name": "--fs-xl",
+      "value": "28px",
+      "kind": "spacing",
+      "definedIn": "tokens/typography.css"
+    },
+    {
+      "name": "--fs-2xl",
+      "value": "40px",
+      "kind": "spacing",
+      "definedIn": "tokens/typography.css"
+    },
+    {
+      "name": "--fs-3xl",
+      "value": "56px",
+      "kind": "spacing",
+      "definedIn": "tokens/typography.css"
+    },
+    {
+      "name": "--lh-tight",
+      "value": "1.15",
+      "kind": "other",
+      "definedIn": "tokens/typography.css",
+      "annotation": "other"
+    },
+    {
+      "name": "--lh-body",
+      "value": "1.55",
+      "kind": "other",
+      "definedIn": "tokens/typography.css",
+      "annotation": "other"
+    },
+    {
+      "name": "--tracking-wordmark",
+      "value": ".22em",
+      "kind": "font",
+      "definedIn": "tokens/typography.css"
+    },
+    {
+      "name": "--tracking-caps",
+      "value": ".12em",
+      "kind": "font",
+      "definedIn": "tokens/typography.css"
+    },
+    {
+      "name": "--space-1",
+      "value": "4px",
+      "kind": "spacing",
+      "definedIn": "tokens/spacing.css"
+    },
+    {
+      "name": "--space-2",
+      "value": "8px",
+      "kind": "spacing",
+      "definedIn": "tokens/spacing.css"
+    },
+    {
+      "name": "--space-3",
+      "value": "12px",
+      "kind": "spacing",
+      "definedIn": "tokens/spacing.css"
+    },
+    {
+      "name": "--space-4",
+      "value": "16px",
+      "kind": "spacing",
+      "definedIn": "tokens/spacing.css"
+    },
+    {
+      "name": "--space-5",
+      "value": "24px",
+      "kind": "spacing",
+      "definedIn": "tokens/spacing.css"
+    },
+    {
+      "name": "--space-6",
+      "value": "32px",
+      "kind": "spacing",
+      "definedIn": "tokens/spacing.css"
+    },
+    {
+      "name": "--space-7",
+      "value": "48px",
+      "kind": "spacing",
+      "definedIn": "tokens/spacing.css"
+    },
+    {
+      "name": "--space-8",
+      "value": "64px",
+      "kind": "spacing",
+      "definedIn": "tokens/spacing.css"
+    },
+    {
+      "name": "--radius-sm",
+      "value": "8px",
+      "kind": "radius",
+      "definedIn": "tokens/spacing.css"
+    },
+    {
+      "name": "--radius-md",
+      "value": "14px",
+      "kind": "radius",
+      "definedIn": "tokens/spacing.css"
+    },
+    {
+      "name": "--radius-lg",
+      "value": "24px",
+      "kind": "radius",
+      "definedIn": "tokens/spacing.css"
+    },
+    {
+      "name": "--radius-pill",
+      "value": "999px",
+      "kind": "radius",
+      "definedIn": "tokens/spacing.css"
+    },
+    {
+      "name": "--shadow-sm",
+      "value": "0 1px 3px rgba(20,46,159,.10)",
+      "kind": "shadow",
+      "definedIn": "tokens/spacing.css"
+    },
+    {
+      "name": "--shadow-md",
+      "value": "0 6px 20px rgba(20,46,159,.14)",
+      "kind": "shadow",
+      "definedIn": "tokens/spacing.css"
+    },
+    {
+      "name": "--shadow-lg",
+      "value": "0 18px 48px rgba(20,46,159,.20)",
+      "kind": "shadow",
+      "definedIn": "tokens/spacing.css"
+    },
+    {
+      "name": "--ease",
+      "value": "cubic-bezier(.4,0,.2,1)",
+      "kind": "other",
+      "definedIn": "tokens/spacing.css",
+      "annotation": "other"
+    },
+    {
+      "name": "--dur",
+      "value": "180ms",
+      "kind": "other",
+      "definedIn": "tokens/spacing.css",
+      "annotation": "other"
+    }
+  ],
+  "themes": [],
+  "fonts": [],
+  "brandFonts": [
+    {
+      "family": "Bricolage Grotesque",
+      "status": "ok",
+      "tokens": ["--font-display"],
+      "path": "tokens/typography.css"
+    },
+    {
+      "family": "Schibsted Grotesk",
+      "status": "ok",
+      "tokens": ["--font-body"],
+      "path": "tokens/typography.css"
+    }
+  ],
+  "source": "spa"
+}
