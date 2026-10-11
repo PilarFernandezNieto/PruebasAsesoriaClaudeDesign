@@ -1,4 +1,4 @@
-# Web corporativa JUMCO
+# Web corporativa 
 Cuatro páginas estáticas en HTML + Bootstrap 5.3 + CSS propio, sin React ni JavaScript propio. JUMCO es la marca principal; `[NOMBRE DEL PRODUCTO]` aparece como parte secundaria de su actividad. Cada banda es una `<section class="banda_*">` independiente, trasladable a un parcial de Twig; cabecera y pie son idénticos en las cuatro páginas.
 
 ## Páginas
